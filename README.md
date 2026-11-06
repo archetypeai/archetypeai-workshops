@@ -6,7 +6,7 @@ Hands-on workshops for building with Newton, Archetype AI's physical world model
 
 | Workshop | What you build | Time | Open |
 |---|---|---|---|
-| [Vision](vision_workshop/) | From a video of a manual task to a PASS / FAIL inspection, an activity timeline, bounding boxes and a written shift note, in English and Japanese | 90 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/archetypeai/archetypeai-workshops/blob/main/vision_workshop/newton_vision_workshop.ipynb) |
+| [Vision](vision_workshop/) | From a video of a manual task to a PASS / FAIL inspection, an activity timeline, bounding boxes and a written shift note. | 90 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/archetypeai/archetypeai-workshops/blob/main/vision_workshop/newton_vision_workshop.ipynb) |
 | Time series | Coming soon | | |
 
 ## Before you start
