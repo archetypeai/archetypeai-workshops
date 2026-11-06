@@ -10,7 +10,7 @@ Starting from an ordinary video of a worker assembling parts, you use Newton to 
 4. a second-by-second activity timeline,
 5. bounding boxes around objects, drawn from Newton's answer,
 6. a before / after comparison,
-7. a written shift note, in English and Japanese.
+7. a written shift note.
 
 The last section runs the same pipeline on a video you upload.
 
