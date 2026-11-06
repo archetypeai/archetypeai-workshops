@@ -1,0 +1,12 @@
+# downloaded sample media and anything participants upload
+*.mp4
+*.png
+*.jpg
+*.jpeg
+# notebook checkpoints and local environments
+.ipynb_checkpoints/
+.venv/
+venv/
+__pycache__/
+# keys never belong in the repo
+.env
