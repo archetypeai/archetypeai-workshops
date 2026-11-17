@@ -24,6 +24,7 @@ Open the participant notebook in Colab: click its **Open in Colab** badge, or go
 ```
 vision_workshop/        the vision workshop: participant and solution notebooks
 timeseries_workshop/    the time-series workshop: participant and solution notebooks
+tools/                  the script that builds the time-series solution notebooks
 ```
 
 ## Learn more

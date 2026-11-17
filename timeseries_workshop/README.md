@@ -42,3 +42,13 @@ The sample data (a 3.8-hour drilling log from the [Volve field dataset](https://
 - A window is 16 to 1024 readings long, in a multiple of 16, and Newton returns one embedding of 768 numbers per channel.
 - `OVERLAP` (section 3) and `SCALING` (section 4) are settings the later sections build on: change one and rerun the notebook from that cell down. Each window is one request, so an overlap of 0.75 means 340 requests instead of 85.
 - Keep your key out of the notebook before sharing it: the setup cell's placeholder is empty on purpose.
+
+## Rebuilding the solution notebooks
+
+The two solution notebooks are generated from the participant notebook, so do not edit them by hand. After changing the participant notebook, run this from the repository root, in the environment described under **Locally** above and with your key exported as `ATAI_API_KEY`:
+
+```
+python tools/build_timeseries_solutions.py --execute
+```
+
+It fills in the five exercises from the solutions the script holds, then runs the result end to end: about 90 requests to Newton, a minute or two. Without `--execute` it writes only the unexecuted solution notebook and makes no requests.
