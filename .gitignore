@@ -10,3 +10,5 @@ venv/
 __pycache__/
 # keys never belong in the repo
 .env
+# sample data the time-series notebook downloads
+drilling_volve_f14*.csv

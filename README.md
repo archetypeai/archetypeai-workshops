@@ -7,12 +7,12 @@ Hands-on workshops for building with Newton, Archetype AI's physical world model
 | Workshop | What you build | Time | Open |
 |---|---|---|---|
 | [Vision](vision_workshop/) | From a video of a manual task to a PASS / FAIL inspection, an activity timeline, bounding boxes and a written shift note. | 90 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/archetypeai/archetypeai-workshops/blob/main/vision_workshop/newton_vision_workshop.ipynb) |
-| Time series | Coming soon | | |
+| [Time series](timeseries_workshop/) | From a CSV file of sensor readings to Newton embeddings, a 2-D map of a machine's states, a classifier that names the state from a few labelled examples and a state timeline. | 90 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/archetypeai/archetypeai-workshops/blob/main/timeseries_workshop/newton_timeseries_workshop.ipynb) |
 
 ## Before you start
 
 1. **An Archetype AI account and API key.** Log in at https://platform.u1.archetypeai.app/console/profile and create a key on the Profile & API Keys page. No account yet? Request one at https://www.archetypeai.io/try-newton.
-2. **Somewhere to run a notebook.** Google Colab needs nothing installed. Locally, Python 3.10 or later and `pip install archetypeai opencv-python-headless matplotlib pandas jupyter`.
+2. **Somewhere to run a notebook.** Google Colab needs nothing installed. Locally, Python 3.10 or later and `pip install archetypeai opencv-python-headless numpy pandas matplotlib scikit-learn jupyter`.
 3. **About an hour and a half** per workshop.
 
 ## How a workshop works
@@ -23,7 +23,8 @@ Open the participant notebook in Colab: click its **Open in Colab** badge, or go
 
 ```
 vision_workshop/        the vision workshop: participant and solution notebooks
-timeseries_workshop/    the time-series workshop (in preparation)
+timeseries_workshop/    the time-series workshop: participant and solution notebooks
+tools/                  the script that builds the time-series solution notebooks
 ```
 
 ## Learn more
@@ -34,4 +35,4 @@ timeseries_workshop/    the time-series workshop (in preparation)
 
 ## License
 
-Apache 2.0, see [LICENSE](LICENSE). The sample recordings used in the workshops were produced by Archetype AI for this purpose.
+Apache 2.0, see [LICENSE](LICENSE). The sample videos used in the vision workshop were produced by Archetype AI for this purpose. The drilling log used in the time-series workshop comes from the [Volve field dataset](https://www.equinor.com/energy/volve-data-sharing), disclosed by Equinor and its Volve licence partners for research, study and development, and is used under the Equinor Open Data Licence.
